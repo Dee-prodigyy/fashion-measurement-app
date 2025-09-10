@@ -23,23 +23,13 @@ export default function Home() {
             {/* Desktop Menu */}
             <ul className="hidden sm:flex space-x-4">
               <li>
-                <Link to="/styles" className="text-cyan-400 hover:text-white px-4 py-2">
+                <Link to="/" className="text-cyan-400 hover:text-white px-4 py-2">
                   Styles
                 </Link>
               </li>
               <li>
-                <Link to="/customers" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+                <Link to="/auth" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
                   Get Started
-                </Link>
-              </li>
-              <li>
-                <Link to="/auth" className="text-white hover:underline px-4 py-2">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link to="/auth" className="text-white hover:underline px-4 py-2">
-                  Register
                 </Link>
               </li>
             </ul>
